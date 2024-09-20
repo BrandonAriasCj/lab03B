@@ -26,7 +26,7 @@ $tareas = $_SESSION['tareas'];
             </thead>
             <tbody>
                 <?php
-                    for($i = 0; $i <count($tareas); $i++) {
+                    for($i = 0; $i < count($tareas); $i++) {
                         echo '<tr><td>'.$tareas[$i].'</td></tr>';
                     }
                 ?>

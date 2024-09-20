@@ -7,7 +7,7 @@ if (!isset($_SESSION['tareas'])) {
 
 $tareas = $_SESSION['tareas'];
 
-$nueva_tarea[] = $_POST['tareas'];
+$nueva_tarea[] = $_POST['tarea'];
 
 $tareas[] = $nueva_tareas;
 
